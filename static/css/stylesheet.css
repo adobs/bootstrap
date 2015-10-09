@@ -1,0 +1,33 @@
+.navbar {
+    background-color: #B8DB4D;
+}
+
+.navbar-default {
+    vertical-align: middle;
+    font-family: Courier;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+#everything-else {
+    font-size: 75%;
+}
+
+#cantaloupe {
+    width: 100%
+}
+
+#mission-statement {
+    font-size: 150%;
+}
+
+#selling-points {
+    text-align: center;
+}
+
