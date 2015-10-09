@@ -3,6 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/stylesheet.css">
     <title>Bootstrap</title>
 
 
@@ -39,7 +40,7 @@
         </div>
     </nav>
 
-    <div class="container-fluid">
+    <div class="container-fluid" id="everything-else">
         <!-- Cantaloupe picture -->
         <div class="row">
             <div class="col-xs-12 col-md-6 col-md-offset-3">
@@ -48,47 +49,86 @@
         </div>
 
         <!-- Mission statement -->
-        <div class="row" id="mission-statement">
-            <div class="col-xs-12 col-md-6 col-md-offset-3">
+        <div class="row">
+            <div class="col-xs-12 col-md-6 col-md-offset-3" id="mission-statement">
                 We deliver only the highest quality domestic and exotic melons from local, independent farmers from around the world.  Our melons are delivered quickly with the greatest care.  We guarantee every order, every time.
             </div>        
         </div>
 
-        <!-- Ubermelon selling point headings -->
-        <div class="row" id="selling-point-headings">
+        <!-- Ubermelon selling points -->
+        <div class="row" id="selling-points">
             <!-- column award winning -->
             <div class="col-xs-12 col-md-4">
-                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                Award Winning
+                <span class="selling-point-heading">
+                    <span class="glyphicon glyphicon-star" aria-hidden="true">
+                    </span>
+                    Award Winning
+                </span>
+                <p>
+                    Don't take our word for it. See all the awards our melons have earned.
+                </p>
             </div>
             <!-- column huge selection -->
             <div class="col-xs-12 col-md-4">
-                <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
-                Huge Selection
+                <span class="selling-point-heading">
+                    <span class="glyphicon glyphicon-globe" aria-hidden="true">
+                    </span>
+                    Huge Selection
+                </span>
+                <p>
+                    We import melons from all over the world, ensuring we have every melon you could possibly desire.
+                </p>
             </div>
             <!-- column certified sustainable -->
             <div class="col-xs-12 col-md-4">
-                <span class="glyphicon glyphicon-certificate" aria-hidden="true"></span>
-                Certified Sustainable
+                
+                 <span class="selling-point-heading">
+                    <span class="glyphicon glyphicon-certificate" aria-hidden="true">
+                    </span>
+                    Certified Sustainable
+                </span>
+                <p>
+                    Our melons are sourced from sustainable, organic, local farmers. These are the healthiest melons you'll ever eat.
+                </p>
             </div>
         </div>
 
-        <!-- Ubermelon selling point text -->
-        <div class="row" id="selling-point-text">
-            <!-- column award winning -->
-            <div class="col-xs-12 col-md-4">
-                Don't take our word for it. See all the awards our melons have earned.
-            </div>
-            <!-- column huge selection -->
-            <div class="col-xs-12 col-md-4">
-                We import melons from all over the world, ensuring we have every melon you could possibly desire.
-            </div>
-            <!-- column certified sustainable -->
-            <div class="col-xs-12 col-md-4">
-                Our melons are sourced from sustainable, organic, local farmers. These are the healthiest melons you'll ever eat.
+
+        <!-- Catalog table -->
+        <div class= "row" id="catalog-table">
+            <div class="col-xs-12 col-md-10 col-md-offset-1">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Melon</th>
+                            <th>Price</th>
+                            <th>Color</th>
+                            <th>Country</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Cantaloupe</td>
+                            <td>$4.99/lb</td>
+                            <td>Tan</td>
+                            <td>Italy</td>
+                        </tr>
+                        <tr>
+                            <td>Honeydew</td>
+                            <td>$3.99/lb</td>
+                            <td>White/Green</td>
+                            <td>France/Algeria</td>
+                        </tr>
+                        <tr>
+                            <td>Casaba</td>
+                            <td>$7.99/lb</td>
+                            <td>Yellow</td>
+                            <td>Turkey</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
-    </div>
 
 
 
